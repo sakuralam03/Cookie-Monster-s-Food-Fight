@@ -1,8 +1,10 @@
 body {
-  font-family: sans-serif;
-  background: #34a13d33;
-  margin: 0;
-  padding: 2rem;
+  background-image: url('https://www.ilovepdf.com/storage/blog/35-1623149775-File-security.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+
 }
 
 .container {
