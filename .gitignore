@@ -9,6 +9,17 @@
 *.log
 *.log.*
 *.sig
+*.cmd
+*.dll
+*.so
+*.dylib
+*.bin
+*.lock
+*.ps1
+*.pyc
+
+
 
 pkg/
-
+node_modules/
+dist/

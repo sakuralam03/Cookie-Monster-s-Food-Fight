@@ -1,0 +1,13 @@
+{
+  "filename": "test.pdf",
+  "cookie_score": {
+    "spy": 12,
+    "suspicious": 7,
+    "yummy": 25
+  },
+  "findings": {
+    "spy": [ {"text": "John Doe", "label": "PERSON"}, ... ],
+    "suspicious": [ ... ],
+    "yummy": [ ... ]
+  }
+}
