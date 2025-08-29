@@ -7,5 +7,4 @@ Document processing webapp that uses AI to intelligently redact and anonymize se
 
 - Yummy Cookies (Green): Safe, non-sensitive data. The document is mostly public and safe. Minimal redaction needed
 - Warm Cookies (Yellow): Potentially sensitive information. The document should be reviewed. Some information will be redacted.
-- Flaming hot Cookies (Red): Highly sensitive PII (Personal Identifiable Information). The document is a privacy risk, users are advised to review before uploading.
-
+- Flaming hot Cookies (Red): Highly sensitive PII (Personal Identifiable Information). The document is a privacy risk, users are advised to review before uploading
