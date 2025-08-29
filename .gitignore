@@ -9,6 +9,7 @@
 *.log
 *.log.*
 *.sig
+*.bin
 
 pkg/
-
+node_modules/
