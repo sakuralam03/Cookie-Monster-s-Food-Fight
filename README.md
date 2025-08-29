@@ -2,7 +2,7 @@
 
 Document processing webapp that uses AI to intelligently redact and anonymize sensitive information in PDFs, contracts, and reports while preserving document utility and context.
 
-1. Users upload a document. 
+1. Users upload a document.
 2. The app uses AI to scan it and assign a "Cookie Score":
 
 - Yummy Cookies (Green): Safe, non-sensitive data. The document is mostly public and safe. Minimal redaction needed

@@ -1,14 +1,20 @@
 import React from 'react';
+import { analyzeDocument } from "../api"; // ⬅ add this at top
+
 
 type UploadZoneProps = {
-  onFileSelect: (file: File | null) => void;
+  onFileSelect: (file: File) => void;
 };
 
 export function UploadZone({ onFileSelect }: UploadZoneProps) {
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const selectedFile = e.target.files?.[0] || null;
-    onFileSelect(selectedFile);
-  };
+
+const handleChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+  const selectedFile = e.target.files?.[0];
+      if (selectedFile){
+        onFileSelect(selectedFile);
+      }
+    }
+
 
   return (
     <div className="upload-zone">
